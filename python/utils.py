@@ -45,3 +45,14 @@ class FileUtils:
             sys.exit(1)        
         return logger
     
+    @staticmethod
+    def remove_whitespaces(df):
+        try:
+            df.columns = df.columns.str.lower().str.strip().str.replace(' ','_')
+            logger.info("Successfully removed whitespaces")
+        except Exception as e:
+            logger.error("Error in removing whitespace")
+
+        return df
+
+    
