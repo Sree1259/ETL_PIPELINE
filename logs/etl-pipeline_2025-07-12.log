@@ -1,0 +1,100 @@
+2025-07-12 10:30:35,663 - INFO  - etl-pipeline - Starting the ETL Pipeline
+2025-07-12 10:30:35,705 - INFO  - etl-pipeline - Loading file-- file loaded succesfully
+2025-07-12 10:30:35,705 - ERROR - etl-pipeline - Transforming File - Failed module 'uuid' has no attribute 'uuid'
+2025-07-12 10:30:35,705 - ERROR - etl-pipeline - Error in ETL_Pipeline load() missing 1 required positional argument: 'path'
+2025-07-12 10:34:19,778 - INFO  - etl-pipeline - Starting the ETL Pipeline
+2025-07-12 10:34:19,793 - INFO  - etl-pipeline - Loading file-- file loaded succesfully
+2025-07-12 10:34:19,795 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 10:34:19,808 - ERROR - etl-pipeline - Transforming File - Failed module 'datetime' has no attribute 'now'
+2025-07-12 10:34:19,808 - ERROR - etl-pipeline - Load to DB failed: [Errno 2] No such file or directory: 'C:\\Users\\sreel\\Documents\\etl_pipeline/transformed.csv'
+2025-07-12 10:34:19,809 - INFO  - etl-pipeline - ETL Pipeline successfully completed
+2025-07-12 10:36:21,394 - INFO  - etl-pipeline - Starting the ETL Pipeline
+2025-07-12 10:36:21,409 - INFO  - etl-pipeline - Loading file-- file loaded succesfully
+2025-07-12 10:36:21,409 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 10:36:21,468 - INFO  - etl-pipeline - Tranforming file-- file transformation succesfully
+2025-07-12 10:36:21,468 - ERROR - etl-pipeline - Load to DB failed: [Errno 2] No such file or directory: 'C:\\Users\\sreel\\Documents\\etl_pipeline/transformed.csv'
+2025-07-12 10:36:21,468 - INFO  - etl-pipeline - ETL Pipeline successfully completed
+2025-07-12 10:37:28,582 - INFO  - etl-pipeline - Starting the ETL Pipeline
+2025-07-12 10:37:28,604 - INFO  - etl-pipeline - Loading file-- file loaded succesfully
+2025-07-12 10:37:28,606 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 10:37:28,643 - INFO  - etl-pipeline - Tranforming file-- file transformation succesfully
+2025-07-12 10:37:29,162 - INFO  - etl-pipeline - Loaded data to table sc.employee successfully.
+2025-07-12 10:37:29,162 - INFO  - etl-pipeline - ETL Pipeline successfully completed
+2025-07-12 10:52:25,035 - INFO  - etl-pipeline - Starting the ETL Pipeline
+2025-07-12 10:52:25,053 - INFO  - etl-pipeline - Loading file-- file loaded succesfully
+2025-07-12 10:52:25,054 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 10:52:25,056 - ERROR - etl-pipeline - Transforming File - Failed Cannot convert non-finite values (NA or inf) to integer
+2025-07-12 10:52:25,457 - INFO  - etl-pipeline - Loaded data to table sc.employee successfully.
+2025-07-12 10:52:25,457 - INFO  - etl-pipeline - ETL Pipeline successfully completed
+2025-07-12 10:54:00,991 - INFO  - etl-pipeline - Starting the ETL Pipeline
+2025-07-12 10:54:01,014 - INFO  - etl-pipeline - Loading file-- file loaded succesfully
+2025-07-12 10:54:01,015 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 10:54:01,050 - INFO  - etl-pipeline - Tranforming file-- file transformation succesfully
+2025-07-12 10:54:01,492 - INFO  - etl-pipeline - Loaded data to table sc.employee successfully.
+2025-07-12 10:54:01,493 - INFO  - etl-pipeline - ETL Pipeline successfully completed
+2025-07-12 11:51:03,392 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:51:03,393 - INFO  - etl-pipeline - Loaded file-- employee.csv succesfully
+2025-07-12 11:51:03,393 - INFO  - etl-pipeline - starting transfromation for employee dataset
+2025-07-12 11:51:03,423 - INFO  - etl-pipeline - Tranforming file-- file transformation succesfully
+2025-07-12 11:51:03,473 - ERROR - etl-pipeline - Load to DB failed: 'NoneType' object has no attribute 'to_sql'
+2025-07-12 11:51:03,477 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:51:03,477 - INFO  - etl-pipeline - Loaded file-- departments.csv succesfully
+2025-07-12 11:51:03,593 - INFO  - etl-pipeline - Loaded data to table sc.departments successfully.
+2025-07-12 11:51:03,598 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:51:03,598 - INFO  - etl-pipeline - Loaded file-- projects.csv succesfully
+2025-07-12 11:51:03,679 - INFO  - etl-pipeline - Loaded data to table sc.projects successfully.
+2025-07-12 11:55:47,513 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:55:47,513 - INFO  - etl-pipeline - Loaded file-- employee.csv succesfully
+2025-07-12 11:55:47,513 - INFO  - etl-pipeline - starting transfromation for employee dataset
+2025-07-12 11:55:47,554 - INFO  - etl-pipeline - Tranforming file-- file transformation succesfully
+2025-07-12 11:55:47,612 - ERROR - etl-pipeline - Load to DB failed: 'NoneType' object has no attribute 'to_sql'
+2025-07-12 11:55:47,616 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:55:47,617 - INFO  - etl-pipeline - Loaded file-- departments.csv succesfully
+2025-07-12 11:55:47,733 - INFO  - etl-pipeline - Loaded data to table sc.departments successfully.
+2025-07-12 11:55:47,737 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:55:47,737 - INFO  - etl-pipeline - Loaded file-- projects.csv succesfully
+2025-07-12 11:55:47,812 - INFO  - etl-pipeline - Loaded data to table sc.projects successfully.
+2025-07-12 11:58:05,038 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:58:05,038 - INFO  - etl-pipeline - Loaded file-- employee.csv succesfully
+2025-07-12 11:58:05,038 - INFO  - etl-pipeline - starting transfromation for employee dataset
+2025-07-12 11:58:05,068 - INFO  - etl-pipeline - Tranforming file-- file transformation succesfully
+2025-07-12 11:58:05,122 - ERROR - etl-pipeline - Load to DB failed: 'str' object has no attribute 'to_sql'
+2025-07-12 11:58:05,125 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:58:05,125 - INFO  - etl-pipeline - Loaded file-- departments.csv succesfully
+2025-07-12 11:58:05,238 - INFO  - etl-pipeline - Loaded data to table sc.departments successfully.
+2025-07-12 11:58:05,243 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:58:05,243 - INFO  - etl-pipeline - Loaded file-- projects.csv succesfully
+2025-07-12 11:58:05,333 - INFO  - etl-pipeline - Loaded data to table sc.projects successfully.
+2025-07-12 11:59:41,472 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:59:41,472 - INFO  - etl-pipeline - Loaded file-- employee.csv succesfully
+2025-07-12 11:59:41,472 - INFO  - etl-pipeline - starting transfromation for employee dataset
+2025-07-12 11:59:41,505 - INFO  - etl-pipeline - Tranforming file-- file transformation succesfully
+2025-07-12 11:59:41,828 - INFO  - etl-pipeline - Loaded data to table sc.employee successfully.
+2025-07-12 11:59:41,832 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:59:41,832 - INFO  - etl-pipeline - Loaded file-- departments.csv succesfully
+2025-07-12 11:59:41,903 - INFO  - etl-pipeline - Loaded data to table sc.departments successfully.
+2025-07-12 11:59:41,907 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 11:59:41,907 - INFO  - etl-pipeline - Loaded file-- projects.csv succesfully
+2025-07-12 11:59:41,978 - INFO  - etl-pipeline - Loaded data to table sc.projects successfully.
+2025-07-12 12:08:59,521 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 12:08:59,521 - INFO  - etl-pipeline - Loaded file-- employee.csv succesfully
+2025-07-12 12:08:59,521 - INFO  - etl-pipeline - starting transfromation for employee dataset
+2025-07-12 12:08:59,558 - INFO  - etl-pipeline - Tranforming file-- file transformation succesfully
+2025-07-12 12:08:59,909 - INFO  - etl-pipeline - Loaded data to table sc.employee successfully.
+2025-07-12 12:08:59,912 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 12:08:59,912 - INFO  - etl-pipeline - Loaded file-- departments.csv succesfully
+2025-07-12 12:08:59,997 - INFO  - etl-pipeline - Loaded data to table sc.departments successfully.
+2025-07-12 12:09:00,001 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 12:09:00,001 - INFO  - etl-pipeline - Loaded file-- projects.csv succesfully
+2025-07-12 12:09:00,098 - INFO  - etl-pipeline - Loaded data to table sc.projects successfully.
+2025-07-12 14:47:44,612 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 14:47:44,612 - INFO  - etl-pipeline - Loaded file-- employee.csv succesfully
+2025-07-12 14:47:44,612 - INFO  - etl-pipeline - starting transfromation for employee dataset
+2025-07-12 14:47:44,631 - INFO  - etl-pipeline - Tranforming file-- file transformation succesfully
+2025-07-12 14:47:44,917 - INFO  - etl-pipeline - Loaded data to table sc.employee successfully.
+2025-07-12 14:47:44,922 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 14:47:44,922 - INFO  - etl-pipeline - Loaded file-- departments.csv succesfully
+2025-07-12 14:47:44,973 - INFO  - etl-pipeline - Loaded data to table sc.departments successfully.
+2025-07-12 14:47:44,977 - INFO  - etl-pipeline - Successfully removed whitespaces
+2025-07-12 14:47:44,977 - INFO  - etl-pipeline - Loaded file-- projects.csv succesfully
+2025-07-12 14:47:45,037 - INFO  - etl-pipeline - Loaded data to table sc.projects successfully.
